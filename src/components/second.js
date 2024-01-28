@@ -1,17 +1,24 @@
+'use client';
 import React from 'react';
 import Image from "next/image";
+import {useEffect} from "react";
 import img1 from "@/images/yashgupta (2).png";
 import { IoLocationOutline } from "react-icons/io5";
+import {gsap} from "gsap";
 const Second = () => {
+
+
+
+
     return (
         <div className="second">
             <div className="email" id="em">
                 <div className="email-h">
-                    <h4 className="h4"><span className="email-span">EMAIL: </span> YASHG091999@GMAIL.COM</h4>
+                    <h4 className="h4" id="h4"><span className="email-span">EMAIL: </span> YASHG091999@GMAIL.COM</h4>
                 </div>
             </div>
             <div className="info">
-                <div className="info-h">
+                <div className="info-h" id="info-h">
                     <h3 className="info-head">HELLO, I’M YASH.
                         STUDENT
                         AT <span className="facebook">JIMS.</span>
